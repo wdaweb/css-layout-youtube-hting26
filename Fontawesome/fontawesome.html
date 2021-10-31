@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1></h1>
+  <p>引用all.css與webfont</p>
+  <i class="fab fa-android"></i>
+  <i class="fab fa-canadian-maple-leaf"></i>
+
+  <h1>使用SVG sprits</h1>
+  <svg width="30">
+    <use xlink:href="./sprites/solid.svg#cat"></use>
+  </svg>
+
+  <svg>
+    <use xlink:href="./sprites/brands.svg#youtube"></use>
+  </svg>
+
+  <h1>調整大小</h1>
+  <i class="fas fa-camera fa-xs"></i>
+  <i class="fas fa-camera fa-10x"></i>
+  <i class="fab fa-youtube fa-10x" style="color: red;"></i>
+  <i class="fab fa-youtube fa-2x" style="color: royalblue;"></i>
+  <br>
+  <div class="fa-3x">
+    <i class="fas fa-spinner fa-spin"></i>
+    <i class="fas fa-circle-notch fa-spin"></i>
+    <i class="fas fa-sync fa-spin"></i>
+    <i class="fas fa-cog fa-spin"></i>
+    <i class="fas fa-spinner fa-pulse"></i>
+    <i class="fas fa-stroopwafel fa-spin"></i>
+  </div>
+</body>
+
+</html>
